@@ -1,0 +1,256 @@
+body {
+  background-color: darkturquoise;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    width: auto;
+    background-color: turquoise;
+    position: fixed;
+    height: 250px;
+    overflow: auto;
+    display: none;
+}
+
+#navBar {
+  background-color: turquoise;
+  display: block;
+  width: 100px;
+  padding: 10px;
+  transform: rotate(90deg);
+  position: fixed;
+  margin-left: -50px;
+  margin-top: 100px;
+}
+
+.titleBar {
+  top: 0;
+  width: 100%;
+  left: 0;
+  display: block;
+  background-color: turquoise;
+  padding: 10px;
+  position: fixed;
+}
+
+.content {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+
+li {
+  display: block;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+li a, .heatDropButton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .heatDrop:hover .heatDropButton {
+    background-color: red;
+}
+
+li.heatDrop {
+    display: block;
+}
+
+.heatDropContent {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.heatDropContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.heatDropContent a:hover {background-color: #f1f1f1}
+
+.heatDrop:hover .heatDropContent {
+    display: block;
+}
+
+li a, .waveDropButton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .waveDrop:hover .waveDropButton {
+    background-color: red;
+}
+
+li.waveDrop {
+    display: block;
+}
+
+.waveDropContent {
+    display: none;
+    position: fixed;
+    margin-left: inherit;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.waveDropContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.waveDropContent a:hover {background-color: #f1f1f1}
+
+.waveDrop:hover .waveDropContent {
+    display: block;
+}
+
+li a, .circDropButton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .circDrop:hover .circDropButton {
+    background-color: red;
+}
+
+li.circDrop {
+    display: block;
+}
+
+.circDropContent {
+    display: none;
+    position: fixed;
+    margin-left: inherit;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.circDropContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.circDropContent a:hover {background-color: #f1f1f1}
+
+.circDrop:hover .circDropContent {
+    display: block;
+}
+
+li a, .matrDropButton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .matrDrop:hover .matrDropButton {
+    background-color: red;
+}
+
+li.matrDrop {
+    display: block;
+}
+
+.matrDropContent {
+    display: none;
+    position: fixed;
+    margin-left: inherit;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.matrDropContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.matrDropContent a:hover {background-color: #f1f1f1}
+
+.matrDrop:hover .matrDropContent {
+    display: block;
+}
+
+li a, .orgnDropButton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .orgnDrop:hover .orgnDropButton {
+    background-color: red;
+}
+
+li.orgnDrop {
+    display: block;
+}
+
+.orgnDropContent {
+    display: none;
+    position: fixed;
+    margin-left: inherit;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.orgnDropContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.orgnDropContent a:hover {background-color: #f1f1f1}
+
+.orgnDrop:hover .orgnDropContent {
+    display: block;
+}
